@@ -9,7 +9,7 @@ If it finds a new or changed environment configuration file, it publishes the ch
 are picked up by [haproxy_updater](https://github.com/bewt85/mayfly-haproxy-updater) which updates 
 [haproxy](https://github.com/bewt85/docker-haproxy) in turn.
 
-You can build your own versions of the ontainers by setting the following environment variable 
+You can build your own versions of the container by setting the following environment variable 
 to your docker index username (if you don't it uses mine) and running this bash script:
 
 ```
